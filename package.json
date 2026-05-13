@@ -1,0 +1,33 @@
+{
+    "name": "wunified-remark-frontmatter",
+    "version": "0.1.0",
+    "description": "UnifiedJS::Frontmatter for Webpan with additional parsing",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/siriusmart/wunified-remark-frontmatter.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "AGPL-3.0-only",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/siriusmart/wunified-remark-frontmatter/issues"
+    },
+    "homepage": "https://github.com/siriusmart/wunified-remark-frontmatter#readme",
+    "devDependencies": {
+        "@types/node": "^24.4.0"
+    },
+    "dependencies": {
+        "remark-frontmatter": "^5.0.0",
+        "toml": "^4.1.1",
+        "unified": "^11.0.5",
+        "wp-unified": "^0.1.6",
+        "yaml": "^2.9.0"
+    }
+}
