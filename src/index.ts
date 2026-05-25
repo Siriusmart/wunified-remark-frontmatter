@@ -1,8 +1,7 @@
-import { UntypedProcessor, WUnifiedPlugin } from "wp-unified"
-
 import remarkFrontmatter from "remark-frontmatter"
-import yaml from 'yaml'
-import toml from 'toml'
+import { UntypedProcessor, WUnifiedPlugin } from "wp-unified"
+import yaml from "yaml"
+import toml from "toml"
 
 export default class WRemarkParse extends WUnifiedPlugin {
     apply(processor: UntypedProcessor, options: any) {

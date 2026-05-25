@@ -1,6 +1,6 @@
 {
     "name": "wunified-remark-frontmatter",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "UnifiedJS::Frontmatter for Webpan with additional parsing",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
@@ -15,7 +15,7 @@
     "keywords": [],
     "author": "",
     "license": "AGPL-3.0-only",
-    "type": "commonjs",
+    "type": "module",
     "bugs": {
         "url": "https://github.com/siriusmart/wunified-remark-frontmatter/issues"
     },
